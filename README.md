@@ -1,4 +1,4 @@
-# Cinevie-BookingMovieApp
+# Cinevie - Booking Movie App
 Cinema movie booking application with Firebase Realtime Database.<br><br>
 <img src="app/src/main/res/drawable/screenshot1.png" width=250>
 <img src="app/src/main/res/drawable/screenshot2.png" width=250>
