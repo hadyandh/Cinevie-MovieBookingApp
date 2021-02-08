@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nun.hunhun.cinevie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.wallet.TopUpActivity"></activity>
+        <activity android:name=".ui.home.ticket.TicketDetailActivity" />
+        <activity android:name=".ui.checkout.CheckoutSuccessActivity" />
+        <activity android:name=".ui.wallet.MyWalletActivity" />
+        <activity android:name=".ui.home.setting.EditProfileActivity" />
+        <activity android:name=".ui.checkout.CheckoutActivity" />
+        <activity android:name=".ui.checkout.seat.ChooseSeatActivity" />
+        <activity android:name=".ui.detail.FilmDetailActivity" />
+        <activity android:name=".ui.home.HomeActivity" />
+        <activity android:name=".ui.signup.SignUpPhotoActivity" />
+        <activity android:name=".ui.signup.SignUpActivity" />
+        <activity android:name=".ui.SignInActivity" />
+        <activity android:name=".ui.onboarding.OnboardingThreeActivity" />
+        <activity android:name=".ui.onboarding.OnboardingTwoActivity" />
+        <activity android:name=".ui.onboarding.OnboardingOneActivity" />
+        <activity android:name=".ui.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

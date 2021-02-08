@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_photo_cast"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tv_name_cast"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/mregular"
+        android:gravity="center"
+        tools:text="Haruna Kawagunchi"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/img_photo_cast"
+        app:layout_constraintStart_toStartOf="@id/img_photo_cast"
+        app:layout_constraintTop_toBottomOf="@id/img_photo_cast"/>
+
+    <TextView
+        android:id="@+id/tv_char_cast"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:fontFamily="@font/mlight"
+        android:textColor="@android:color/white"
+        tools:text="Aizawa Miyabi"
+        app:layout_constraintEnd_toEndOf="@+id/tv_name_cast"
+        app:layout_constraintStart_toStartOf="@id/tv_name_cast"
+        app:layout_constraintTop_toBottomOf="@id/tv_name_cast"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

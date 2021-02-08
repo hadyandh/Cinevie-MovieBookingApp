@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "52781758710",
+    "firebase_url": "https://cinevie-581b4.firebaseio.com",
+    "project_id": "cinevie-581b4",
+    "storage_bucket": "cinevie-581b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52781758710:android:31fb10f320233fb3ba54d7",
+        "android_client_info": {
+          "package_name": "nun.hunhun.cinevie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52781758710-9cmrr5h2grtv74ldv512s228tjhijf6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATGkeowNgrh7qRau6J0mo3voQ65RdcOK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52781758710-9cmrr5h2grtv74ldv512s228tjhijf6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

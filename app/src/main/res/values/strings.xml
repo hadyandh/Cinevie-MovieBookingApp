@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Cinevie</string>
+    <string name="skip">Skip Introduction</string>
+    <string name="next">Next</string>
+
+    <string name="onboarding_title_one">NOW PLAYING</string>
+    <string name="onboarding_desc_one">Makes it easier to find out which\nfilms are currently showing</string>
+    <string name="onboarding_title_two">PRE SALE</string>
+    <string name="onboarding_desc_two">Be the first to watch\nthe latest movies</string>
+    <string name="onboarding_title_three">CASHLESS</string>
+    <string name="onboarding_desc_three">Use e-wallets for transactions\nanytime and anywhere</string>
+
+    <string name="checkout_success_title">Happy Watching!</string>
+    <string name="checkout_success_desc">Ticket was successfully purchased\and happy watching</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="photo">Photo</string>
+    <string name="checkout">Checkout</string>
+    <string name="history">History</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="setting">Settings</string>
+    <string name="wallet">My Wallet</string>
+
+    <string name="login">Login</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="upload_later">Upload Later</string>
+    <string name="save_next">Save &amp; Next</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email Address</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="storyboard">Storyboard</string>
+    <string name="cast">Cast</string>
+    <string name="buy_ticket">BUY TICKET</string>
+    <string name="choose_seats">Choose Seats</string>
+    <string name="when">When</string>
+    <string name="date_time"><![CDATA[Date & Time]]></string>
+    <string name="cinema">Cinema</string>
+    <string name="e_wallet">E-Wallet</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="transaction">Transaction</string>
+    <string name="my_history">My History</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="items">Items</string>
+    <string name="total_pay">Total Pay</string>
+    <string name="alert_balance">Your balance not enough to continue transaction</string>
+    <string name="home">Home</string>
+    <string name="see_ticket">See Ticket</string>
+    <string name="title_fragment_ticket">Ticket Purchase</string>
+    <string name="settings_title">Settings</string>
+    <string name="setting_sub_title">Keep it up to date</string>
+    <string name="available_balance">Current Balance</string>
+    <string name="top_up">TOP UP</string>
+    <string name="top_up_title">Top Up</string>
+    <string name="amount">Amount</string>
+    <string name="quick_options">Quick options</string>
+    <string name="minimum_top_up">Minimum top up is 10.000</string>
+</resources>
